@@ -1,8 +1,7 @@
 ﻿# MAIN MENU
 * Fill the menu (so it's not so empty lol)
-    * Add a background video or image
+    * ~~Add a background video or image~~
     * Add the game logo
-    * Make a mascot
 * Add button clicking sounds
 
 # SETTINGS
