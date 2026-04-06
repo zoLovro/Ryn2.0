@@ -295,19 +295,19 @@
     ]
   },
   "packageFolders": {
-    "/home/lovrohk/.nuget/packages/": {}
+    "/Users/lovrohk/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lovrohk/RiderProjects/BetterRyn/BetterRyn.csproj",
+      "projectUniqueName": "/Users/lovrohk/Documents/Rider Projects/Ryn2.0/BetterRyn.csproj",
       "projectName": "BetterRyn",
-      "projectPath": "/home/lovrohk/RiderProjects/BetterRyn/BetterRyn.csproj",
-      "packagesPath": "/home/lovrohk/.nuget/packages/",
-      "outputPath": "/home/lovrohk/RiderProjects/BetterRyn/obj/",
+      "projectPath": "/Users/lovrohk/Documents/Rider Projects/Ryn2.0/BetterRyn.csproj",
+      "packagesPath": "/Users/lovrohk/.nuget/packages/",
+      "outputPath": "/Users/lovrohk/Documents/Rider Projects/Ryn2.0/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/lovrohk/.nuget/NuGet/NuGet.Config"
+        "/Users/lovrohk/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -357,12 +357,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.14, 9.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[9.0.14, 9.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.14, 9.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/lovrohk/.dotnet/sdk/10.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

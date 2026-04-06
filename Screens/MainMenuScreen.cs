@@ -20,6 +20,7 @@ public class MainMenuScreen : IScreen
     private int _exitPromptSelectedIndex;
     private KeyboardState _previousKeyboard;
     private bool _askingIfExit = false;
+    private Texture2D _mainMenuWallpaper;
     
 
     public MainMenuScreen()
@@ -36,6 +37,7 @@ public class MainMenuScreen : IScreen
         _rectangle.SetData(new[] {Color.White});
         
         _font = content.Load<SpriteFont>("GameFont");
+        _mainMenuWallpaper = content.Load<Texture2D>("MainMenuWallpaper");
     }
 
     public void Update(GameTime gameTime)
@@ -106,6 +108,8 @@ public class MainMenuScreen : IScreen
 {
     int screenWidth = _rectangle.GraphicsDevice.Viewport.Width;
     int screenHeight = _rectangle.GraphicsDevice.Viewport.Height;
+    
+    spriteBatch.Draw(_mainMenuWallpaper, new Rectangle(0, 0, screenWidth, screenHeight), Color.White);
     
     int menuX = 20;                 
     int menuWidth = screenWidth - 40;
